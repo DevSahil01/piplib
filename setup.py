@@ -1,19 +1,18 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='devsahil-helloworld',  # Must be unique on PyPI
-    version='0.1.0',
+    name='gyatModel2',
+    version='0.1.2',
     packages=find_packages(),
-    description='A simple Hello World package',
+    include_package_data=True,
+    package_data={
+        'gyat_model': ['model1.txt', 'model2.txt', 'model3.txt'],
+    },
+    author='Micheal Scofield',
+    description='A sample package that prints text file content',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    author='Your Name',
-    author_email='your.email@example.com',
-    url='https://github.com/yourusername/hello-world-lib',  # Optional, but recommended
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
     ],
-    python_requires='>=3.6',
 )
