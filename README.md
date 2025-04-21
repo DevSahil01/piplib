@@ -2,6 +2,10 @@
 
 A simple Python package that prints "Hello, World!"
 
+## Installation 
+```python 
+pip install gyatModel2
+
 ## Usage
 
 ```python
