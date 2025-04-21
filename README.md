@@ -1,10 +1,13 @@
-# hello-world-lib
+# Gyat_model Code
 
 A simple Python package that prints "Hello, World!"
 
 ## Usage
 
 ```python
-from hello_world_lib import say_hello
+from gyat_model import model1_read,model2_read,model3_read;
 
-say_hello()
+model1_read()
+model2_read()
+model3_read()
+
